@@ -78,18 +78,21 @@ conda create -n FRU_Adapter python=3.9
 conda activate FRU_Adapter
 pip install -r requirements.txt
 '''
+
 - DFEW 
-```
+```bash
 scripts/dfew/main_org.sh #2-clip average train code. it use clip_224x224 (i.e., selected by general sampling.)
 scripts/dfew/main.sh #16 frame uniform sampling train code. it use clip_224x224_16f (i.e., selected by DFEW.)
 scripts/dfew/main_org_eval.sh #2-clip average train code. it use clip_224x224 (i.e., selected by general sampling.)
 scripts/dfew/main_eval.sh #16 frame uniform sampling train code. it use clip_224x224_16f (i.e., selected by DFEW.)
 '''
+
 - FERV39k
-'''
+'''bash
 scripts/FERV39k/main.sh #train_code 
 scripts/FERV39k/main_eval.sh #eval_code
 '''
+
 - MAFW
 '''
 scripts/mafw/main.sh #train_code 
