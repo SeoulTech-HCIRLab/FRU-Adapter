@@ -76,7 +76,7 @@ conda create -n FRU_Adapter python=3.9
 conda activate FRU_Adapter
 pip install -r requirements.txt
 ```
-- main.sh: selected by 16-frame. it use clip_224x224_16f in DFEW
+- main.sh: 16-frame. it use clip_224x224_16f in DFEW
 - main_org.sh: org frame (e.g., 64 frame, 128 frame, etc.) it use clip_224x224 in DFEW
 - DFEW 
 ```bash
@@ -84,14 +84,14 @@ scripts/dfew/main_org.sh
 scripts/dfew/main.sh 
 ```
 
-- FERV39k (16-frame uniform sampling)
+- FERV39k 
 ```bash
-scripts/FERV39k/main.sh #train_code 
+scripts/FERV39k/main.sh 
 ```
 
-- MAFW (16-frame uniform sampling)
+- MAFW 
 ```
-scripts/mafw/main.sh #train_code 
+scripts/mafw/main.sh
 ```
 
 ## 📋 Reported Results and Fine-tuned Weights
