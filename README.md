@@ -26,23 +26,12 @@ Adapter), which combines the strengths of frame recalibration unit (FRU) and tem
 ![Result_on_DFEW, FERV39k, MAFW dataset](figs/RESULT.png)
 
 ## 🔨 Installation
-
-Main prerequisites:
-
-* `Python 3.8`
-* `PyTorch 1.7.1 (cuda 10.2)`
-* `timm==0.4.12`
-* `einops==0.6.1`
-* `decord==0.6.0`
-* `scikit-learn=1.1.3`
-* `scipy=1.10.1`
-* `pandas==1.5.3`
-* `numpy=1.23.4`
-* `opencv-python=4.7.0.72`
-* `tensorboardX=2.6.1`
-
-If some are missing, please refer to [environment.yml](environment.yml) for more details.
-
+-Run the following command to make virtual environments
+```bash
+conda create -n FRU_Adapter python=3.9
+conda activate FRU_Adapter
+pip install -r requirements.txt
+```
 
 ## ➡️ Data Preparation
 
@@ -68,9 +57,9 @@ An example of [train.csv](saved/data/dfew/clip_224x224_16f/split01/train.csv) of
 ```
 
 ## Fine-tune with pre-trained weights
-1、 Download the pre-trained weights from [google drive](https://drive.google.com/file/d/1coQC3ArQwgMQMD6FS0ev3l4X-N58dhfp/view?usp=sharing) and move it to the [pretrain ckpts directory](saved/model/pretrain).
+1. Download the pre-trained weights from [google drive](https://drive.google.com/file/d/1coQC3ArQwgMQMD6FS0ev3l4X-N58dhfp/view?usp=sharing) and move it to the [pretrain ckpts directory](saved/model/pretrain).
 
-2、 Run the following command to fine-tune the model on the target dataset.
+2. Run the following command to fine-tune the model on the target dataset.
 ```bash
 conda create -n FRU_Adapter python=3.9
 conda activate FRU_Adapter
