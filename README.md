@@ -86,12 +86,12 @@ scripts/dfew/main.sh
 
 - FERV39k 
 ```bash
-scripts/FERV39k/main.sh 
+scripts/FERV39k/main_org.sh 
 ```
 
 - MAFW 
 ```
-scripts/mafw/main.sh
+scripts/mafw/main_org.sh
 ```
 
 ## 📋 Reported Results and Fine-tuned Weights
@@ -106,12 +106,12 @@ scripts/dfew/main_eval.sh
 
 - FERV39k (16-frame uniform sampling)
 ```bash
-scripts/FERV39k/main_eval.sh 
+scripts/FERV39k/main_org_eval.sh 
 ```
 
 - MAFW (16-frame uniform sampling)
 ```
-scripts/mafw/main_eval.sh 
+scripts/mafw/main_org_eval.sh 
 ```
 
 <table border="1" cellspacing="0" cellpadding="5">
