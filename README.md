@@ -26,7 +26,7 @@ Adapter), which combines the strengths of frame recalibration unit (FRU) and tem
 ![Result_on_DFEW, FERV39k, MAFW dataset](figs/RESULT.png)
 
 ## 🔨 Installation
--Run the following command to make virtual environments
+Run the following command to make virtual environments
 ```bash
 conda create -n FRU_Adapter python=3.9
 conda activate FRU_Adapter
