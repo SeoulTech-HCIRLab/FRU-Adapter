@@ -98,7 +98,8 @@ scripts/mafw/main_eval.sh #eval_code
 ```
 
 ## 📋 Reported Results and Fine-tuned Weights
-The fine-tuned checkpoints can be downloaded from [here](https://pan.baidu.com/s/1Xz5j8QW32x7L0bnTEorUbA?pwd=5drk).
+The fine-tuned checkpoints (DFEW, FERV39k) can be downloaded from [google drive](https://drive.google.com/drive/folders/1i5l-P1vgSwQFAuLwOTVUPHSg1ovMITIZ?usp=drive_link) and 
+MAFW's checkpoint can be downloaded from [google drive](https://drive.google.com/file/d/15EKP3f-S0YAp1Iw7ILG22n3ozN66c1HI/view?usp=drive_link).
 <table border="1" cellspacing="0" cellpadding="5">
     <tr>
         <th rowspan="2">Datasets</th>
