@@ -88,13 +88,13 @@ scripts/dfew/main_eval.sh #16 frame uniform sampling train code. it use clip_224
 '''
 
 - FERV39k
-'''bash
+```bash
 scripts/FERV39k/main.sh #train_code 
 scripts/FERV39k/main_eval.sh #eval_code
 '''
 
 - MAFW
-'''
+```
 scripts/mafw/main.sh #train_code 
 scripts/mafw/main_eval.sh #eval_code
 '''
