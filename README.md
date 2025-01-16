@@ -76,7 +76,7 @@ conda create -n FRU_Adapter python=3.9
 conda activate FRU_Adapter
 pip install -r requirements.txt
 ```
-- main.sh: 16-frame. it use clip_224x224_16f in DFEW (16-frame uniform sampling)
+- main.sh: 16-frame. it use clip_224x224_16f in DFEW (16-frame uniform sampling. this script only use in DFEW, because the DFEW dataset has 16-frame and org-frame clip, the other dataset have only org frame.)
 - main_org.sh: org frame (e.g., 64 frame, 128 frame, etc.) it use clip_224x224 in DFEW (2-clip average results)
 - DFEW 
 ```bash
