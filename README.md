@@ -85,8 +85,8 @@ The fine-tuned checkpoints can be downloaded from [here](https://pan.baidu.com/s
 <table border="1" cellspacing="0" cellpadding="5">
     <tr>
         <th rowspan="2">Datasets</th>
-        <th colspan="2">w/o oversampling</th>
-        <th colspan="2">w/ oversampling</th>
+        <th colspan="2">16-frame uniformsampling</th>
+        <th colspan="2">2-clip average</th>
     </tr>
     <tr>
         <th>UAR</th>
@@ -105,38 +105,38 @@ The fine-tuned checkpoints can be downloaded from [here](https://pan.baidu.com/s
     <tr><td colspan="5" style="text-align: center;">DFEW</td></tr>
     <tr>
         <td>DFEW01</td>
-        <td>61.56</td>
-        <td>76.16</td>
-        <td>64.80</td>
-        <td>75.35</td>
+        <td>66.12</td>
+        <td>77.22</td>
+        <td>64.28</td>
+        <td>76.89</td>
     </tr>
     <tr>
         <td>DFEW02</td>
-        <td>59.93</td>
-        <td>73.99</td>
-        <td>62.54</td>
-        <td>72.53</td>
+        <td>63.12</td>
+        <td>75.13</td>
+        <td>63.85</td>
+        <td>74.88</td>
     </tr>
     <tr>
         <td>DFEW03</td>
-        <td>61.33</td>
-        <td>76.41</td>
-        <td>66.47</td>
-        <td>75.87</td>
+        <td>64.79</td>
+        <td>76.84</td>
+        <td>65.78</td>
+        <td>76.37</td>
     </tr>
     <tr>
         <td>DFEW04</td>
-        <td>62.75</td>
-        <td>76.31</td>
-        <td>66.03</td>
-        <td>74.48</td>
+        <td>66.14</td>
+        <td>77.05</td>
+        <td>66.39</td>
+        <td>78.20</td>
     </tr>
     <tr>
         <td>DFEW05</td>
         <td>63.51</td>
-        <td>77.27</td>
-        <td>67.43</td>
-        <td>76.80</td>
+        <td>78.55</td>
+        <td>69.10</td>
+        <td>78.55</td>
     </tr>
     <tr>
         <td>DFEW</td>
