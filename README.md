@@ -1,4 +1,4 @@
-# FRU-Adapter: Frame recalibration unit adapter for dynamic facial expression recognition
+![image](https://github.com/user-attachments/assets/c387acde-26a8-4f24-b818-3076efd22519)# FRU-Adapter: Frame recalibration unit adapter for dynamic facial expression recognition
 
 > Seoul National University of Science and Technology & HCIR Lab<br>
 ## 📰 News
@@ -133,60 +133,60 @@ The fine-tuned checkpoints can be downloaded from [here](https://pan.baidu.com/s
     </tr>
     <tr>
         <td>DFEW05</td>
-        <td>63.51</td>
+        <td>69.91</td>
         <td>78.55</td>
         <td>69.10</td>
         <td>78.55</td>
     </tr>
     <tr>
         <td>DFEW</td>
-        <td>61.82</td>
-        <td>76.03</td>
-        <td>65.45</td>
-        <td>74.81</td>
+        <td>66.02</td>
+        <td>76.96</td>
+        <td>65.88</td>
+        <td>76.98</td>
     </tr>
     <tr><td colspan="5" style="text-align: center;">MAFW</td></tr>
     <tr>
         <td>MAFW01</td>
-        <td>32.78</td>
-        <td>46.76</td>
-        <td>36.16</td>
-        <td>44.21</td>
+        <td>34.70</td>
+        <td>48.29</td>
+        <td>38.42</td>
+        <td>51.82</td>
     </tr>
     <tr>
         <td>MAFW02</td>
-        <td>40.43</td>
-        <td>55.96</td>
-        <td>41.94</td>
-        <td>51.22</td>
+        <td>41.66</td>
+        <td>55.58</td>
+        <td>42.13</td>
+        <td>56.18</td>
     </tr>
     <tr>
         <td>MAFW03</td>
-        <td>47.01</td>
-        <td>62.08</td>
-        <td>48.08</td>
-        <td>61.48</td>
+        <td>49.21</td>
+        <td>62.41</td>
+        <td>48.40</td>
+        <td>62.25</td>
     </tr>
     <tr>
         <td>MAFW04</td>
-        <td>45.66</td>
-        <td>62.61</td>
-        <td>47.67</td>
-        <td>60.64</td>
+        <td>46.58</td>
+        <td>64.08</td>
+        <td>49.36</td>
+        <td>65.23</td>
     </tr>
     <tr>
         <td>MAFW05</td>
-        <td>43.45</td>
-        <td>59.42</td>
-        <td>43.16</td>
-        <td>58.55</td>
+        <td>41.89</td>
+        <td>58.77</td>
+        <td>44.40</td>
+        <td>61.17</td>
     </tr>
     <tr>
         <td>MAFW</td>
-        <td>41.86</td>
-        <td>57.37</td>
-        <td>43.40</td>
-        <td>55.22</td>
+        <td>42.80</td>
+        <td>57.83</td>
+        <td>44.54</td>
+        <td>59.33</td>
     </tr>
 </table>
 
