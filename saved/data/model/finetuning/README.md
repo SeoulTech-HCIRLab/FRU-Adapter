@@ -1,1 +1,1 @@
-Put the pre-trained model in this folder.
+Put the eval model in this folder.
