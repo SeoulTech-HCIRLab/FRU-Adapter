@@ -59,7 +59,7 @@ dataset_root/video_3  label_3
 dataset_root/video_N  label_N
 ```
 
-An example of [train.csv](saved/data/dfew/org/split01/train.csv) of DFEW fold1 (fd1) is shown as follows:
+An example of [train.csv](saved/data/dfew/clip_224x224_16f/split01/train.csv) of DFEW fold1 (fd1) is shown as follows:
 
 ```
 /mnt/data1/brain/AC/Dataset/DFEW/Clip/jpg_256/02522 5
@@ -68,7 +68,7 @@ An example of [train.csv](saved/data/dfew/org/split01/train.csv) of DFEW fold1 (
 ```
 
 ## Fine-tune with pre-trained weights
-1、 Download the pre-trained weights from [google drive](https://drive.google.com/file/d/1coQC3ArQwgMQMD6FS0ev3l4X-N58dhfp/view?usp=sharing) and move it to the ckpts directory.
+1、 Download the pre-trained weights from [google drive](https://drive.google.com/file/d/1coQC3ArQwgMQMD6FS0ev3l4X-N58dhfp/view?usp=sharing) and move it to the [ckpts directory] (saved/data/model/finetuning).
 
 2、 Run the following command to fine-tune the model on the target dataset.
 ```bash
