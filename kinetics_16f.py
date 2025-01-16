@@ -10,7 +10,6 @@ import warnings
 from decord import VideoReader, cpu
 from torch.utils.data import Dataset
 import video_transforms as video_transforms 
-import video_transform as video_transform
 import volume_transforms as volume_transforms
 import random
 import glob
