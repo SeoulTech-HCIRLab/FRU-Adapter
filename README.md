@@ -23,7 +23,7 @@ Adapter), which combines the strengths of frame recalibration unit (FRU) and tem
 
 ### ✨ Dynamic Facial Expression Recognition
 
-![Result_on_DFEW, FERV39k, MAFW dataset](figs/Result.png)
+![Result_on_DFEW, FERV39k, MAFW dataset](figs/RESULT.png)
 
 ## 🔨 Installation
 
