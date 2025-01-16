@@ -76,30 +76,43 @@ conda create -n FRU_Adapter python=3.9
 conda activate FRU_Adapter
 pip install -r requirements.txt
 ```
-
+- main.sh denotes the 16-frame uniform sampling. it use clip_224x224_16f in DFEW, and main_org.sh represents the 2-clip average results. it use clip_224x224 in DFEW
 - DFEW 
 ```bash
-scripts/dfew/main_org.sh #2-clip average train. it use clip_224x224 (i.e., selected by general sampling.)
-scripts/dfew/main.sh #16-frame uniform sampling train. it use clip_224x224_16f (i.e., selected by DFEW.)
-scripts/dfew/main_org_eval.sh #2-clip average eval
-scripts/dfew/main_eval.sh #16-frame uniform sampling eval
+scripts/dfew/main_org.sh 
+scripts/dfew/main.sh 
 ```
 
 - FERV39k (16-frame uniform sampling)
 ```bash
 scripts/FERV39k/main.sh #train_code 
-scripts/FERV39k/main_eval.sh #eval_code
 ```
 
 - MAFW (16-frame uniform sampling)
 ```
 scripts/mafw/main.sh #train_code 
-scripts/mafw/main_eval.sh #eval_code
 ```
 
 ## 📋 Reported Results and Fine-tuned Weights
 The fine-tuned checkpoints (DFEW, FERV39k) can be downloaded from [google drive](https://drive.google.com/drive/folders/1i5l-P1vgSwQFAuLwOTVUPHSg1ovMITIZ?usp=drive_link) and 
 MAFW's checkpoint can be downloaded from [google drive](https://drive.google.com/file/d/15EKP3f-S0YAp1Iw7ILG22n3ozN66c1HI/view?usp=drive_link).
+
+- DFEW 
+```bash
+scripts/dfew/main_org_eval.sh 
+scripts/dfew/main_eval.sh 
+```
+
+- FERV39k (16-frame uniform sampling)
+```bash
+scripts/FERV39k/main_eval.sh 
+```
+
+- MAFW (16-frame uniform sampling)
+```
+scripts/mafw/main_eval.sh 
+```
+
 <table border="1" cellspacing="0" cellpadding="5">
     <tr>
         <th rowspan="2">Datasets</th>
