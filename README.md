@@ -15,7 +15,7 @@ Adapter), which combines the strengths of frame recalibration unit (FRU) and tem
  (T-SA) to address the aforementioned issues. 
  
 <p align="center">
-  <img src="figs/FRU-Adapter" width=50%> <br>
+  <img src="figs/FRU-Adapter.png" width=50%> <br>
   Overall architecture of FRU-Adapter.
 </p>
 
@@ -23,7 +23,7 @@ Adapter), which combines the strengths of frame recalibration unit (FRU) and tem
 
 ### ✨ Dynamic Facial Expression Recognition
 
-![Result_on_DFEW, FERV39k, MAFW dataset](figs/Result_on_DFEW.png)
+![Result_on_DFEW, FERV39k, MAFW dataset](figs/Result.png)
 
 ## 🔨 Installation
 
@@ -66,8 +66,6 @@ An example of [train.csv](saved/data/dfew/org/split01/train.csv) of DFEW fold1 (
 /mnt/data1/brain/AC/Dataset/DFEW/Clip/jpg_256/02536 5
 /mnt/data1/brain/AC/Dataset/DFEW/Clip/jpg_256/02578 6
 ```
-
-Note that, `label` for the pre-training dataset (i.e., VoxCeleb2) is dummy label, you can simply use `0` (see [voxceleb2.py](preprocess/voxceleb2.py)).
 
 ## Fine-tune with pre-trained weights
 1、 Download the pre-trained weights from [baidu drive](https://pan.baidu.com/s/1J5eCnTn_Wpn0raZTIUCfgw?pwd=dji4) or [google drive](https://drive.google.com/file/d/1Y9zz8z_LwUi-tSFBAwDPZkVoyY6mhZlu/view?usp=drive_link) or [onedrive](https://mailhfuteducn-my.sharepoint.com/:f:/g/personal/2022111029_mail_hfut_edu_cn/EgKQNq8Y2chKl2TSoYf_OA0BQpCwx-FDw2ksPaMxBntZ8A), and move it to the ckpts directory.
