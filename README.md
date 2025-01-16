@@ -97,10 +97,10 @@ The fine-tuned checkpoints can be downloaded from [here](https://pan.baidu.com/s
     <tr><td colspan="5" style="text-align: center;">FERV39K</td></tr>
     <tr>
         <td>FERV39K</td>
-        <td>41.28</td>
-        <td>52.56</td>
-        <td>43.97</td>
-        <td>46.21</td>
+        <td>38.65</td>
+        <td>50.12</td>
+        <td>41.08</td>
+        <td>52.70</td>
     </tr>
     <tr><td colspan="5" style="text-align: center;">DFEW</td></tr>
     <tr>
