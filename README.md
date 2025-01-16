@@ -68,7 +68,7 @@ An example of [train.csv](saved/data/dfew/clip_224x224_16f/split01/train.csv) of
 ```
 
 ## Fine-tune with pre-trained weights
-1、 Download the pre-trained weights from [google drive](https://drive.google.com/file/d/1coQC3ArQwgMQMD6FS0ev3l4X-N58dhfp/view?usp=sharing) and move it to the [pretrain ckpts directory](saved/data/model/pretrain).
+1、 Download the pre-trained weights from [google drive](https://drive.google.com/file/d/1coQC3ArQwgMQMD6FS0ev3l4X-N58dhfp/view?usp=sharing) and move it to the [pretrain ckpts directory](saved/model/pretrain).
 
 2、 Run the following command to fine-tune the model on the target dataset.
 ```bash
@@ -97,7 +97,7 @@ scripts/mafw/main_org.sh
 ## 📋 Reported Results and Fine-tuned Weights
 The fine-tuned checkpoints (DFEW, FERV39k) can be downloaded from [google drive](https://drive.google.com/drive/folders/1i5l-P1vgSwQFAuLwOTVUPHSg1ovMITIZ?usp=drive_link) and 
 MAFW's checkpoint can be downloaded from [google drive](https://drive.google.com/file/d/15EKP3f-S0YAp1Iw7ILG22n3ozN66c1HI/view?usp=drive_link).
-and move it to the [eval ckpts directory](saved/data/model/finetuning).
+and move it to the [eval ckpts directory](saved/model/finetuning).
 - DFEW 
 ```bash
 scripts/dfew/main_org_eval.sh 
