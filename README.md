@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/c387acde-26a8-4f24-b818-3076efd22519)# FRU-Adapter: Frame recalibration unit adapter for dynamic facial expression recognition
+# FRU-Adapter: Frame recalibration unit adapter for dynamic facial expression recognition
 
 > Seoul National University of Science and Technology & HCIR Lab<br>
 ## 📰 News
@@ -192,11 +192,13 @@ The fine-tuned checkpoints can be downloaded from [here](https://pan.baidu.com/s
 
 ## ☎️ Contact 
 
-If you have any questions, please feel free to reach me out at `sunlicai2019@ia.ac.cn`.
+If you have any questions, please feel free to reach me out at `gblader@naver.com`.
 
 ## 👍 Acknowledgements
 
-This project is built upon [VideoMAE](https://github.com/MCG-NJU/VideoMAE). Thanks for their great codebase.
+This research was supported by the MSIT(Ministry of Science and ICT), Korea, under 
+the ITRC(Information Technology Research Center) support program (IITP-2025-RS-2022-00156295) 
+supervised by the IITP(Institute for Information Communications Technology Planning Evaluation).
 
 ## ✏️ Citation
 
