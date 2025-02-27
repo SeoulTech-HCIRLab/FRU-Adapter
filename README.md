@@ -29,7 +29,7 @@ Adapter), which combines the strengths of frame recalibration unit (FRU) and tem
 ## 🔨 Installation
 Run the following command to make virtual environments
 ```bash
-conda create -n FRU_Adapter python=3.9
+conda create -n FRU_Adapter python=3.7.16
 conda activate FRU_Adapter
 pip install -r requirements.txt
 ```
