@@ -52,7 +52,6 @@ class FRU_Adapter(nn.Module):
     def forward(self, x):
         #x = bt N D 
         bt, n,d = x.shape
-        #bN t D ,FC -> GAP(D) 이후 TSE-> t-former(only D) -> FC
         x = rearrange(x, '(b t) n d-> (b n) t d', t = self.Frame, n = n, d = d)
 
         x = self.linear1(x) # bn t d
@@ -61,10 +60,6 @@ class FRU_Adapter(nn.Module):
         _, _,down = x.shape
 
         x = rearrange(x, '(b n) t d-> b t (n d)', t = self.Frame, n = n, d = down)
-        # x1 = x.mean(-1).flatten(1) # bn t 
-        # x1 = self.T_linear1(x1) # bn t
-        # x1 = self.softmax(x1).unsqueeze(-1) #bn t 1
-        # x = x * x1 #bn t d
         x = self.FRU(x)
         x = rearrange(x, 'b t (n d)-> (b n) t d', t = self.Frame, n = n, d = down)
 
@@ -88,6 +83,7 @@ conda create -n FRU_Adapter python=3.7.16
 conda activate FRU_Adapter
 pip install -r requirements.txt
 ```
+[models_vit.py](models_vit.py)
 
 ## ➡️ Data Preparation
 
