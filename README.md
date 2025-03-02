@@ -1,7 +1,7 @@
 # FRU-Adapter: Frame recalibration unit adapter for dynamic facial expression recognition
 [FRU-Adapter: Frame recalibration unit adapter for dynamic facial expression recognition](https://www.mdpi.com/2079-9292/14/5/978)
 > MyungbeomHer, Hamza Ghulam Nabi, and Ji-HyeongHan*
-> Seoul National University of Science and Technology & HCIR Lab<br>
+>> Seoul National University of Science and Technology & HCIR Lab<br>
 ## 📰 News
 
 **[2025.02.21]** FRU-Adapter is accepted for Electronics <br>
