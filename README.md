@@ -20,6 +20,61 @@ Adapter), which combines the strengths of frame recalibration unit (FRU) and tem
   Overall architecture of FRU-Adapter.
 </p>
 
+```
+#Frame recalibration unit adapter
+class FRU_Adapter(nn.Module):
+    def __init__(self,
+                 channel = 197,
+                 embded_dim = 1024,
+                 Frame = 16,
+                 hidden_dim = 128):
+        super().__init__()
+
+        self.Frame = Frame
+
+        self.linear1 = nn.Linear(embded_dim ,hidden_dim)
+        self.linear2 = nn.Linear(hidden_dim,embded_dim)
+
+        self.T_linear1 = nn.Linear(Frame, Frame)
+        self.softmax = nn.Softmax(dim=1)
+        self.ln = nn.LayerNorm(hidden_dim)
+        
+        self.TFormer = TemporalTransformer(frame=Frame,emb_dim=hidden_dim)
+
+    #Frame recalibration unit
+    def FRU(self, x):
+        x1 = x.mean(-1).flatten(1) # bn t 
+        x1 = self.T_linear1(x1) # bn t
+        x1 = self.softmax(x1).unsqueeze(-1) #bn t 1
+        x = x * x1 #bn t d
+        return x 
+    
+    def forward(self, x):
+        #x = bt N D 
+        bt, n,d = x.shape
+        #bN t D ,FC -> GAP(D) 이후 TSE-> t-former(only D) -> FC
+        x = rearrange(x, '(b t) n d-> (b n) t d', t = self.Frame, n = n, d = d)
+
+        x = self.linear1(x) # bn t d
+        x = self.ln(x) 
+
+        _, _,down = x.shape
+
+        x = rearrange(x, '(b n) t d-> b t (n d)', t = self.Frame, n = n, d = down)
+        # x1 = x.mean(-1).flatten(1) # bn t 
+        # x1 = self.T_linear1(x1) # bn t
+        # x1 = self.softmax(x1).unsqueeze(-1) #bn t 1
+        # x = x * x1 #bn t d
+        x = self.FRU(x)
+        x = rearrange(x, 'b t (n d)-> (b n) t d', t = self.Frame, n = n, d = down)
+
+        x = self.TFormer(x)
+        x = self.linear2(x) # bn t d
+        #bt n d
+        x = rearrange(x, '(b n) t d-> (b t) n d', t = self.Frame, n = n, d = d)
+        return x
+```
+
 ## 🚀 Main Results
 
 ### ✨ Dynamic Facial Expression Recognition
