@@ -4,7 +4,7 @@
 >
 > Seoul National University of Science and Technology & HCIR Lab<br>
 ## 📰 News
-
+**[2025.02.28]** FRU-Adapter is published for Electronics <br>
 **[2025.02.21]** FRU-Adapter is accepted for Electronics <br>
 **[2025.01.16]** We upload the code of FRU-Adapter <br>
 
