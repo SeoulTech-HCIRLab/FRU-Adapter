@@ -2,8 +2,9 @@
 
 > Seoul National University of Science and Technology & HCIR Lab<br>
 ## 📰 News
-**[2025.01.16]** We upload the code of FRU-Adapter <br>
+
 **[2025.02.21]** FRU-Adapter is accepted for Electronics <br>
+**[2025.01.16]** We upload the code of FRU-Adapter <br>
 
 ## ✨ Overview
 
@@ -69,6 +70,7 @@ class FRU_Adapter(nn.Module):
         x = rearrange(x, '(b n) t d-> (b t) n d', t = self.Frame, n = n, d = d)
         return x
 ```
+[models_vit.py](models_vit.py)
 
 ## 🚀 Main Results
 
@@ -83,7 +85,6 @@ conda create -n FRU_Adapter python=3.7.16
 conda activate FRU_Adapter
 pip install -r requirements.txt
 ```
-[models_vit.py](models_vit.py)
 
 ## ➡️ Data Preparation
 
