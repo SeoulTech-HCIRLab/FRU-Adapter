@@ -18,7 +18,6 @@ Adapter), which combines the strengths of frame recalibration unit (FRU) and tem
  
 <p align="center">
   <img src="figs/FRU-Adapter1.png" width=75%> <br>
-  Overall architecture of FRU-Adapter.
 </p>
 
 ```
