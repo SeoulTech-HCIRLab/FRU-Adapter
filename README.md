@@ -274,6 +274,17 @@ supervised by the IITP(Institute for Information Communications Technology Plann
 ## ✏️ Citation
 
 If you think this project is helpful, please feel free to leave a star⭐️ and cite our paper:
-
+'''
+@article{her2025fru,
+  title={FRU-Adapter: Frame Recalibration Unit Adapter for Dynamic Facial Expression Recognition},
+  author={Her, Myungbeom and Nabi, Hamza Ghulam and Han, Ji-Hyeong},
+  journal={Electronics},
+  volume={14},
+  number={5},
+  pages={978},
+  year={2025},
+  publisher={MDPI}
+}
+'''
 
 
