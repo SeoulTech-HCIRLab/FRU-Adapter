@@ -10,8 +10,8 @@
 
 ## ✨ Overview
 
-Dynamic facial expression recognition (DFER) is one of the important challenges in com
-puter vision, as it plays a crucial role in human-computer interaction. Recently, adapter-based
+Dynamic facial expression recognition (DFER) is one of the important challenges in computer vision, 
+as it plays a crucial role in human-computer interaction. Recently, adapter-based
  approaches have been introduced to the DFER and they have achieved remarkable success. However,
  the adapters still suffer from the following problems: overlooking irrelevant frames and interference
  with pre-trained information. In this paper, we propose a frame recalibration unit adapter (FRU
