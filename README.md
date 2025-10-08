@@ -5,8 +5,8 @@
 > Seoul National University of Science and Technology & HCIR Lab<br>
 ## 📰 News
 
-**[2025.10.08]** FRU-Adapter is surpassed to smart-turn v3 in [Turn Detection Task](https://github.com/MyungBeomHer/TurnDetection) <br>
-**[2025.09.24]** FRU-Adapter is surpassed to KOBERT in [Name Entity Recognition Task](https://github.com/MyungBeomHer/-BERT-FRU-Adapter/tree/main) <br>
+**[2025.10.08]** FRU-Adapter is surpassed to smart-turn v3 in Turn Detection Task [github](https://github.com/MyungBeomHer/TurnDetection) <br>
+**[2025.09.24]** FRU-Adapter is surpassed to KOBERT in Name Entity Recognition (NER) Task [github](https://github.com/MyungBeomHer/-BERT-FRU-Adapter/tree/main) <br>
 **[2025.02.28]** FRU-Adapter is published for Electronics <br>
 **[2025.02.21]** FRU-Adapter is accepted for Electronics <br>
 **[2025.01.16]** We upload the code of FRU-Adapter <br>
