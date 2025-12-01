@@ -108,9 +108,10 @@ dataset_root/video_N  label_N
 An example of [train.csv](saved/data/dfew/clip_224x224_16f/split01/train.csv) of DFEW fold1 (fd1) is shown as follows:
 
 ```
-/mnt/data1/brain/AC/Dataset/DFEW/Clip/jpg_256/02522 5
-/mnt/data1/brain/AC/Dataset/DFEW/Clip/jpg_256/02536 5
-/mnt/data1/brain/AC/Dataset/DFEW/Clip/jpg_256/02578 6
+/home/gpuadmin/MB/DFEW_ZIP/Clip/clip_224x224_16f/02522 5
+/home/gpuadmin/MB/DFEW_ZIP/Clip/clip_224x224_16f/02536 5
+/home/gpuadmin/MB/DFEW_ZIP/Clip/clip_224x224_16f/02578 6
+/home/gpuadmin/MB/DFEW_ZIP/Clip/clip_224x224_16f/02581 5
 ```
 
 ## Fine-tune with pre-trained weights
