@@ -114,6 +114,8 @@ An example of [train.csv](saved/data/dfew/clip_224x224_16f/split01/train.csv) of
 /home/gpuadmin/MB/DFEW_ZIP/Clip/clip_224x224_16f/02581 5
 ```
 
+To help you understand, 'dataset_root' refers to /home/gpuadmin/MB/DFEW_ZIP/Clip/clip_224x224_16f, 'video_1' refers to 02522, and 'label_1' refers to 5.
+
 ## Fine-tune with pre-trained weights
 1. Download the pre-trained weights from [google drive](https://drive.google.com/file/d/1coQC3ArQwgMQMD6FS0ev3l4X-N58dhfp/view?usp=sharing) and move it to the [pretrain ckpts directory](saved/model/pretrain).
 
